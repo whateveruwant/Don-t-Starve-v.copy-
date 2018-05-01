@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Don%27tStarve">
+      <UniqueIdentifier>{42383488-ecec-478b-8c77-7cafc20e54e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameMain">
+      <UniqueIdentifier>{eff4995e-f933-442b-8adf-cd7ed47ad24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Utils">
+      <UniqueIdentifier>{e64d43cc-6927-491c-a161-9e58a7faaccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Managers">
+      <UniqueIdentifier>{610b971b-c80b-4d9b-8677-0592ff76faa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MNG Header">
+      <UniqueIdentifier>{eb253e90-08c3-4d57-bba6-a1c33b49e4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.APImain">
+      <UniqueIdentifier>{c8c99893-4d5d-432e-803c-a6cc3fbe734e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\01.scenes">
+      <UniqueIdentifier>{b7cce602-1cb0-4667-a633-3634ca48a492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\02.map">
+      <UniqueIdentifier>{42c3d0bb-d67c-41d8-9f4d-3ca29222d4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\02.map\object">
+      <UniqueIdentifier>{24d91451-7c3f-4f91-bd21-d5a661f036da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\01.scenes\loading">
+      <UniqueIdentifier>{8232b14f-b22c-4503-87f3-de6d21ce3145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\01.scenes\window">
+      <UniqueIdentifier>{65767b0b-5e91-4372-92dc-fde568df2108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\03.userInfo">
+      <UniqueIdentifier>{06537210-78a6-4f47-8f6e-0fab13e20848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\03.userInfo\UI">
+      <UniqueIdentifier>{95d5c45f-55ff-46fb-be9b-a159512fde39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Don%27tStarve\01.scenes\window\menu">
+      <UniqueIdentifier>{dfb6fe19-1db6-4a83-9e0c-afa0988d74b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>01.GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>01.GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="APIFrameWork(D2D).h">
+      <Filter>05.APImain</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>02.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>02.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>04.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>04.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>04.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>02.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>02.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles.h">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>00.Don%27tStarve\03.userInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>00.Don%27tStarve\02.map\object</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>03.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>04.MNG Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatingWorldScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingMainScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInfo.h">
+      <Filter>00.Don%27tStarve\02.map\object</Filter>
+    </ClInclude>
+    <ClInclude Include="UImanager.h">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Crafting.h">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacterScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingGameScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="MaptoolScene.h">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>00.Don%27tStarve\01.scenes\window\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APIFrameWork(D2D).cpp">
+      <Filter>05.APImain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>05.APImain</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>01.GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>01.GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>02.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>04.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>04.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>04.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiles.cpp">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>00.Don%27tStarve\03.userInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>00.Don%27tStarve\02.map\object</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>03.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>04.MNG Header</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>00.Don%27tStarve\02.map</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatingWorldScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingMainScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="UImanager.cpp">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Crafting.cpp">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCharacterScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>00.Don%27tStarve\03.userInfo\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingGameScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="MaptoolScene.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\window</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>00.Don%27tStarve\01.scenes\window\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="APIFrameWork(D2D).rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="APIFrameWork(D2D).ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
